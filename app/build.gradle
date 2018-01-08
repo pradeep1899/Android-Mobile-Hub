@@ -17,7 +17,7 @@ android {
     buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.amazonaws.mobile.samples.notes"
-        minSdkVersion 19
+        minSdkVersion 23
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -42,4 +42,10 @@ dependencies {
     compile 'com.android.support:design:25.3.1'
     compile 'com.android.support:multidex:1.0.1'
     compile 'joda-time:joda-time:2.9.9'
+    compile 'com.amazonaws:aws-android-sdk-core:2.6.+'
+    compile 'com.amazonaws:aws-android-sdk-auth-core:2.6.+@aar'
+    compile 'com.amazonaws:aws-android-sdk-auth-ui:2.6.+@aar'
+    compile 'com.amazonaws:aws-android-sdk-auth-userpools:2.6.+@aar'
+    compile 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.6.+'
+    compile 'com.amazonaws:aws-android-sdk-pinpoint:2.6.+'
 }
